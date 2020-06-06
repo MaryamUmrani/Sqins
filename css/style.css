@@ -1,0 +1,197 @@
+.logo{
+    width: 120px;
+}
+
+.slider{
+    background: url(1.jpg);
+    width: 100%;
+    background-position: c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+}
+.front-heading{
+    font-size: 60px;
+    font-weight: 00;
+    padding-top: 130px;
+    text-transform: uppercase;
+    color: rgb(255, 0, 157);
+   
+}
+.front-p{
+    width: 46%;
+    text-align: justify;
+    color: white;
+}
+.get-started{
+    padding: 08px 13px;
+    font-size: 20px;
+    border: rgb(255, 0, 157) solid 2px;
+    background: none;
+    color:rgb(255, 0, 157)  ;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.get-started:hover{
+    color: black;
+    background: rgb(255, 0, 157) ;
+    transition: 0.5s;
+
+}
+.details , #send{
+    padding: 08px 13px;
+    font-size: 20px;
+    border: rgb(255, 0, 157) solid 2px;
+    background: none;
+    color:rgb(255, 0, 157)  ;
+    font-weight: 500;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; 
+}
+.details:hover, #send:hover{
+    text-decoration: none;
+    color: white;
+    background: rgb(255, 0, 157) ;
+    transition: 0.5s;
+}
+#margin-t{
+    margin-top: 50px;
+}
+.card{
+    margin: px;
+    border: none;
+}
+p{
+    text-align: justify;
+}
+.cntr-heading{
+    text-align: center;
+    color: rgb(255, 0, 157) ;
+    margin: 15px 0px;
+}
+.banner{
+    width: 100%;
+}
+.h3{
+    color:rgb(255, 0, 157)  ;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border: dotted 1px;
+
+}
+.about-two{
+    color: rgb(255, 0, 157);
+    font-size: 30px;
+}
+.about-front-p{
+    width: 100%;
+    color: white;
+}
+.about-h2{
+    color: white;
+    font-size: 50px;
+    padding-top:30px ;
+}
+.col-lg-3{
+    margin: 10px 0;
+}
+.about-front{
+    background:rgb(255, 0, 157)  ;
+    width: 100%;
+    height: auto;
+}
+.list-unstyled li a{
+    color:rgb(255, 0, 157)  ;
+}
+.items{
+box-shadow: 0.2px 0.2px 5px ;
+box-sizing: content-box;
+padding: 5px;
+padding-bottom: 15px;
+height: px;
+}
+.items img{
+    width: 100%;
+}
+.items p{
+    color:rgb(49, 45, 47);
+    margin: 2px 0;
+}
+.items .price{
+    color:rgb(255, 0, 157) ;
+    font-weight: 700;
+    line-height: 3px;
+    display: inline-block;
+    font-size: 20px;
+}
+.items .price::before{
+    content: 'Price: ';
+}
+.shop-btn{
+    background: none;
+    border: none;
+    float: right;
+    color:rgb(43, 41, 42) ;
+    font-size: px;
+    font-weight: 700;
+    outline: none;
+    padding: none;
+    cursor: pointer;
+}
+.col-lg-2:hover{
+    border: 1px solid rgb(255, 0, 157);
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+.items i{
+    float: right;
+    margin: 0px 10px;
+    cursor: pointer;
+    color: rgb(54, 53, 53);
+    padding: 5px;
+    
+}
+.shop-btn:hover {
+    color:rgb(255, 0, 157) ;
+    transition: .4s;
+}
+.items i:hover{
+    border-radius: 300px;
+    background: rgb(255, 0, 157);
+    color: white;
+    transition: 0.4s;
+}
+i{
+    color:rgb(255, 0, 157) ;
+}
+a{
+    color:rgb(255, 0, 157) ; 
+}
+@media only screen and (max-width: 600px) {
+    .front-heading{
+        font-size: 50px;
+        padding-top: 80px;
+        text-transform: uppercase;
+        
+       
+    }
+    p{
+        text-align: left;
+    }
+    .front-p{
+        width: 90%;
+    }
+    .col-lg-2{
+        box-sizing: border-box;
+        padding: 5px;
+        margin: px;
+    }
+  }
